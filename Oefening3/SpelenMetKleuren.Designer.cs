@@ -1,6 +1,6 @@
-﻿namespace Oefening2
+﻿namespace Oefening3
 {
-    partial class Form1
+    partial class SpelenMetKleuren
     {
         /// <summary>
         ///  Required designer variable.

@@ -1,8 +1,8 @@
 namespace Oefening2
 {
-    public partial class Form1 : Form
+    public partial class Dialoogvensters : Form
     {
-        public Form1()
+        public Dialoogvensters()
         {
             InitializeComponent();
         }
