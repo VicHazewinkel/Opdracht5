@@ -1,6 +1,6 @@
-﻿namespace Oefening3
+﻿namespace Oefening2
 {
-    partial class SpelenMetKleuren
+    partial class MainVenster
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ToolStripMenuItem_Toevoegen = new System.Windows.Forms.ToolStripMenuItem();
-            this.ToolStripMenuItem_Verwijderen = new System.Windows.Forms.ToolStripMenuItem();
-            this.brushToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nieuwMenuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -39,44 +37,29 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ToolStripMenuItem_Toevoegen,
-            this.ToolStripMenuItem_Verwijderen,
-            this.brushToolStripMenuItem});
+            this.nieuwMenuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // ToolStripMenuItem_Toevoegen
+            // nieuwMenuToolStripMenuItem
             // 
-            this.ToolStripMenuItem_Toevoegen.Name = "ToolStripMenuItem_Toevoegen";
-            this.ToolStripMenuItem_Toevoegen.Size = new System.Drawing.Size(100, 24);
-            this.ToolStripMenuItem_Toevoegen.Text = "Toevoegen ";
-            this.ToolStripMenuItem_Toevoegen.Click += new System.EventHandler(this.ToolStripMenuItem_Toevoegen_Click);
+            this.nieuwMenuToolStripMenuItem.Name = "nieuwMenuToolStripMenuItem";
+            this.nieuwMenuToolStripMenuItem.Size = new System.Drawing.Size(106, 24);
+            this.nieuwMenuToolStripMenuItem.Text = "Nieuw Menu";
+            this.nieuwMenuToolStripMenuItem.Click += new System.EventHandler(this.nieuwMenuToolStripMenuItem_Click);
             // 
-            // ToolStripMenuItem_Verwijderen
-            // 
-            this.ToolStripMenuItem_Verwijderen.Name = "ToolStripMenuItem_Verwijderen";
-            this.ToolStripMenuItem_Verwijderen.Size = new System.Drawing.Size(105, 24);
-            this.ToolStripMenuItem_Verwijderen.Text = "Verwijderen ";
-            this.ToolStripMenuItem_Verwijderen.Click += new System.EventHandler(this.ToolStripMenuItem_Verwijderen_Click);
-            // 
-            // brushToolStripMenuItem
-            // 
-            this.brushToolStripMenuItem.Name = "brushToolStripMenuItem";
-            this.brushToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
-            this.brushToolStripMenuItem.Text = "Brush";
-            // 
-            // SpelenMetKleuren
+            // Dialoogvensters
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "SpelenMetKleuren";
-            this.Text = "Spelen met kleuren";
+            this.Name = "Dialoogvensters";
+            this.Text = "Menu\'s";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -87,8 +70,6 @@
         #endregion
 
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem ToolStripMenuItem_Toevoegen;
-        private ToolStripMenuItem ToolStripMenuItem_Verwijderen;
-        private ToolStripMenuItem brushToolStripMenuItem;
+        private ToolStripMenuItem nieuwMenuToolStripMenuItem;
     }
 }
